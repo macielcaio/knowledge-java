@@ -1,0 +1,23 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class DesafioFor {
+
+	
+	public static void main(String[] args) {
+		
+
+		
+		double notasAlunos [] = new double [3];
+
+		Scanner entrada =  new Scanner(System.in);
+		System.out.print("Informe a nota do Aluno A: ");
+		double notasDoAluno = entrada.nextInt();
+		
+		for (int notasAlunos = 0; i < notasAlunos.length; i++) {
+			notasAlunosA +=
+		}
+		
+	}
+}

@@ -1,0 +1,33 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class DesafioFor {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada =  new Scanner(System.in);
+		System.out.print("Informe a quantidade de alunos até 6: ");
+		int qtdAluno = entrada.nextInt();
+		
+//		if(qtdAluno <= 6) {
+//			
+//		}
+		
+		Scanner entrada2 =  new Scanner(System.in);
+		System.out.print("Informe a quantidade de alunos até 6: ");
+		double NotaAluno = entrada2.nextInt();
+		
+		double totalAlunoA = 0;
+		
+		double notasAlunos [] = new double [qtdAluno];
+		for (double i = 0; i < notasAlunos.length; i++) {
+			totalAlunoA += NotaAluno[i]; //adiciona cada indice de array no total
+		}
+		
+
+		
+
+	}
+}

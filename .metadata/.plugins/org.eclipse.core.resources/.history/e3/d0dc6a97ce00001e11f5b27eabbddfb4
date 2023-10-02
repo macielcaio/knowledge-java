@@ -1,0 +1,24 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class DesafioFor {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada =  new Scanner(System.in);
+		//Inserção de valor pedido pelo sistema
+		System.out.print("Informe a nota do Aluno A: ");
+		double notaAlunoA = entrada.nextInt();
+		
+		System.out.print("Informe a nota do Aluno B: ");
+		double notaAlunoB = entrada.nextInt();
+		
+		System.out.print("Informe a nota do Aluno C: ");
+		double notaAlunoC = entrada.nextInt();
+		
+		
+		
+	}
+}

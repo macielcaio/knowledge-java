@@ -1,0 +1,19 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class DesafioFor {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada =  new Scanner(System.in);
+		System.out.print("Informe a quantidade de alunos até 6: ");
+		int qtdAluno = entrada.nextInt();
+		
+		if(qtdAluno <= 6) {
+			int notasAlunos [] = new int [qtdAluno];
+		}
+
+	}
+}
