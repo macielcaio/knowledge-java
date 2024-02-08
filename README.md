@@ -1,5 +1,5 @@
 # knowledge-java
-testes-exercicies-POCs
+testes-exercicies
 
 --------------------------------------------------------------
 
